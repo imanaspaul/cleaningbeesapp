@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN yarn install \
+RUN npm install \
     --prefer-offline \
     --frozen-lockfile \
     --non-interactive \
