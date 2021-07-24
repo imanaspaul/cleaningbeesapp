@@ -1,4 +1,4 @@
-FROM node-14.1.0-alpine
+FROM node:13-alpine
 
 WORKDIR /app
 
@@ -19,7 +19,7 @@ RUN rm -rf node_modules && \
     --non-interactive \
     --production=true
 
-FROM node-14.1.0-alpine
+FROM node:13-alpine
 
 WORKDIR /app
 
